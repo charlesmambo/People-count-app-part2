@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@600;900&family=Ubuntu:wght@500;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Passanger Count App</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    
+    <div class="wrapper">
+        <h1>Passanger Count</h1>
+        <h2 id="count-el">0</h2>
+        <button id="increment-btn" onclick="increment()">increment</button>
+        <button id="save-btn" onclick="save()">Save</button>
+        <p id="save-el">Previous entries: </p>
+        <p><i id="delete-icon" class="fa-solid fa-trash" onclick="deleteRecord()"></i></p>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
